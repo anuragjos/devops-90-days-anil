@@ -1,0 +1,18 @@
+# System Basics
+uname -a
+lsblk
+df -h
+top
+free -m
+hostnamectl
+
+#Networking 
+ip a
+ip r
+ping google.com
+netstat -tulpn
+ss -tulpn
+# Logs
+journalctl -xe
+sudo tail -f /var/log/syslog
+
